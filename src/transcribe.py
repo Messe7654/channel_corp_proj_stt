@@ -24,4 +24,4 @@ def transcribe(audio_path, output_path):
 for file_name in os.listdir('src/samples'):
     audio_path = os.path.join('src/samples', file_name)
     output_path = file_name[:-3] + "txt"
-    transcribe(audio_path, output_pat)
+    transcribe(audio_path, output_path)
